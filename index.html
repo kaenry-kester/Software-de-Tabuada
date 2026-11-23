@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="main">
+        <h1> Treinando funções - Tabuada</h1>
+
+        <form name="dados" id="dados" method="post" action="valores da tabuada">
+            <label for="valor1">Digite o número que estará na tabuada.</label>
+            <input type="number" required autofocus name="valor1" id="valor1"
+                placeholder="Digite um numero para a tabuada">
+            <br>
+
+            <label for="nvezes">Digite até qual número você quer a tabuada seja calculada.?</label>
+            <input type="number" id="nvezes" name="nvezes" required
+                placeholder="Digite até qual número você quer a tabuada">
+        </form>
+
+
+        <section>
+            <button onClick="mostrarTabuada()"> Mostrar tabuada </button>
+
+            <button onClick="limparTabuada()"> Limpar tabuada</button>
+        </section>
+
+        <section id="resultado">
+            <div id="output"></div>
+        </section>
+    </div>
+</body>
+
+</html>
