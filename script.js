@@ -17,5 +17,4 @@ const mostrarTabuada = () => {
 
 const limparTabuada = () => {
     caixaResultado.style.display="none";
-    resultado.innerHTML = "Limpamos a tabuada"
 }
